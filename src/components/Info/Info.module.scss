@@ -1,0 +1,30 @@
+// info css ===============================================
+.info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 10%;
+   text-align: center;
+   h2 {
+      margin: 40px 0 15px;
+   }
+   p {
+      opacity: .6;
+      margin-bottom: 45px;
+   }
+   a {
+      min-width: 350px;
+   }
+   button {
+      img {
+         transform: rotate(180deg);
+      }
+      &:hover {
+         img {
+            transform: translateX(-10px) rotate(-180deg);
+         }
+      }
+   }
+}
+// info css ===============================================
